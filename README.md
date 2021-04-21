@@ -15,5 +15,10 @@ SpringCloud、SpringData 、人工智能、爬虫、RabbitMQ等技术。
 前端架构：Node.js+Vue.js+ElementUI+NUXT
 
 
-## 视频资料
+## 视频资料V1
 https://www.bilibili.com/video/BV1P4411S79a?p=1
+
+
+
+## 视频资料V2
+https://www.bilibili.com/video/BV1HE411M7G8?p=1
