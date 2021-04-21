@@ -1,0 +1,20 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: tensquare-base # 指定服务名
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.222.140:3306/tensquare_base?characterEncoding=UTF-8&serverTimezone=UTC&serverTimezone=Asia/Shanghai&useSSL=false
+    username: root
+    password: root
+
+  jpa:
+    database: mysql
+    show-sql: true
+eureka:
+  client: #客户端注册进eureka服务列表内
+    service-url:
+      defaultZone: http://127.0.0.1:6868/eureka/
+  instance:
+    prefer-ip-address: true #访问路径可以显示IP地址
